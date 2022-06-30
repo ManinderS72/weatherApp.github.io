@@ -1,0 +1,30 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weatherapp.css">
+    <title>Weather App</title>
+</head>
+<body style="background-image: url(&quot;images/cloud.jpg&quot;);">
+    <div class="app-main">
+        <div class="searchInputBox">
+            <input type="text" id="input-box" class="input-box" placeholder="Enter city name..." autocomplete="off">
+        </div>
+
+        <div class="weather-body" style="display: block;">
+            <div class="location-details">
+                <div class="city" id="city">Bahrain, BH</div>
+                <div class="date" id="date">1 July (Friday), 2022</div>
+            </div>
+
+            <div class="weather-status">
+                <div class="temp" id="temp">35°C</div>
+                <div class="min-max" id="min-max">34°C (min)/ 37°C (max) </div>
+                <div class="weather" id="weather">Clouds</div>
+                <div id="img"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="weatherapp.js"></script>
+
+</body></html>
